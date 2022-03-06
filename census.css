@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    padding-right:50px;
+
+}
+
+
+li a.active {
+    color: red;
+}
+
+nav ul li{
+    border-left:2px solid white;
+    padding:0 25px 0 25px;
+}
+
+.navbar {
+    background-color: rgb(63, 108, 175);
+    padding: 10px;
+}
+
+.patient-form {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.button-group {
+    float: right;
+}
+
+.patient-form button {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.patient-form button[type="reset"] {
+    background-color: rgb(165, 159, 159);
+}
+
+.patient-form button[type="submit"] {
+    background-color: rgb(63, 108, 175);
+
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(235, 232, 232);
+    padding: 10px 10px 0 10px;
+}

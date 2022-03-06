@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: rgb(63, 108, 175);
+    padding: 10px;
+}
+
+.navbar-brand{
+    padding-right:50px;
+
+}
+.aside-img{
+    float:right;
+}
+.aside-img img{
+    height:250px;
+
+}
+main{
+    width:70%;
+    margin: 100px auto;
+}
+
+li a.active {
+    color: red;
+}
+
+nav ul li{
+    border-left:2px solid white;
+    padding:0 25px 0 25px;
+}
+.main-body {
+    width: 50%;
+    margin: 20px auto;
+
+}
+
+main .body-img {
+    background-repeat: repeat-x;
+    height: 200px;
+    width: 100%;
+    background-image: url("body-image.png");
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(235, 232, 232);
+    padding: 10px 10px 0 10px;
+}
